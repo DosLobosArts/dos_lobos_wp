@@ -1,0 +1,79 @@
+[
+    {
+      "id": 0,
+      "titulo": "Pulsera 7 nudos hilo fino roja",
+      "imagen": "../images/Pulseritas/pulse finita 7 nudos roja.jpg",
+      "precio": "1000",
+      "categoria": "pulseras"
+    },
+    {
+      "id": 1,
+      "titulo": "Pulsera 7 nudos hilo fino violeta",
+      "imagen": "../images/Pulseritas/pulse finita 7 nudos violeta.jpg",
+      "precio": "1000",
+      "categoria": "pulseras"
+    },
+    {
+      "id": 2,
+      "titulo": "Pulsera 7 nudos hilo fino purpura",
+      "imagen": "../images/Pulseritas/pulse finita 7 nudos purpura.jpg",
+      "precio": "1000",
+      "categoria": "pulseras"
+    },
+    {
+      "id": 3,
+      "titulo": "Pulsera 7 nudos roja",
+      "imagen": "../images/Pulseritas/pulse 7 nudos roja.jpg",
+      "precio": "1200",
+      "categoria": "pulseras"
+    },
+    {
+      "id": 4,
+      "titulo": "Pulsera 7 nudos violeta",
+      "imagen": "../images/Pulseritas/pulse 7 nudos violeta.jpg",
+      "precio": "1200",
+      "categoria": "pulseras"
+    },
+    {
+      "id": 5,
+      "titulo": "Pulsera 7 nudos purpura",
+      "imagen": "../images/Pulseritas/pulse 7 nudos purpura.jpg",
+      "precio": "1200",
+      "categoria": "pulseras"
+    },
+    {
+      "id": 6,
+      "titulo": "Pulsera 7 nudos fluo",
+      "imagen": "../images/Pulseritas/pulse 7 nudos fluo.jpg",
+      "precio": "1200",
+      "categoria": "pulseras"
+    },
+    {
+      "id": 7,
+      "titulo": "Pulsera ojito chato roja",
+      "imagen": "../images/Pulseritas/pulse finita 1 ojito chato roja.jpg",
+      "precio": "1200",
+      "categoria": "pulseras"
+    },
+    {
+      "id": 8,
+      "titulo": "Pulsera ojito roja",
+      "imagen": "../images/Pulseritas/pulse finita 1 ojito roja.jpg",
+      "precio": "1000",
+      "categoria": "pulseras"
+    },
+    {
+      "id": 9,
+      "titulo": "Pulsera ojito violeta",
+      "imagen": "../images/Pulseritas/pulse finita 1 ojito violeta.jpg",
+      "precio": "1000",
+      "categoria": "pulseras"
+    },
+    {
+      "id": 10,
+      "titulo": "Pulsera ojo ovalado roja",
+      "imagen": "../images/Pulseritas/pulse 1 ojito ovalado roja.jpg",
+      "precio": "1500",
+      "categoria": "pulseras"
+    }
+  ]

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="./images/Favicon 1.png">
+    <title>Dos Lobos</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="slogan">
+                <img src="./images/Logo.png">
+                <div>
+                    <h1 style="margin: auto 0; font-size: 50px; padding-left: 20px;">Dos Lobos</h1>
+                    <p style="font-size: 20px; padding-bottom: 15px; font-family: Ocean;">- Artesanías y Santería -</p>
+                </div>
+            </div>
+            <div class="menu">
+                <button class= "boton_menu"><a href="./index.html">Volver a la tienda</a></button>
+                <button class= "boton_menu boton_carrito active">Carrito <span class="numero_compras">0</span></button>
+            </div>
+            <div class="contacto">
+                <h4 style="margin: auto 0;">Contacto</h4>
+                <div class="contacto_items">
+                    <div>
+                        <img height="35px" width="auto" src="./images/whatsapp icon.png">
+                        <p>11 5475 5330 / 11 2581 0905</p>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/doslobos.artesanias/" target="_blank"><img height="35px" width="auto" src="./images/instagram icon.png"></a>
+                        <a href="https://www.instagram.com/doslobos.artesanias/" target="_blank" style="margin-left: 10px;">doslobos.artesanias</a>
+                    </div>
+                    <div>
+                        <img height="35px" width="auto" src="./images/excel icon.png">
+                        <p>Descargar lista de precios [Excel]</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="contenedor_carrito">
+                
+                <h1 class="carrito_titulo">Carrito</h1>
+                <p class="carrito_vacio">Tu carrito esta vacío</p>
+                
+                <div class="carrito_productos disabled">
+                    <div class="carrito_producto">
+                        <img class="carrito_producto_imagen" src="./images/Logo.png">
+                        <div class="carrito_producto_titulo">
+                            <small>Nombre</small>
+                            <h3>Pulserita X</h3>
+                        </div>
+                        <div class="carrito_producto_cantidad">
+                            <small>Cantidad</small>
+                            <h3>1</h3>
+                        </div>
+                        <div class="carrito_producto_precio">
+                            <small>Precio</small>
+                            <h3>$1000</h3>
+                        </div>
+                        <div class="carrito_producto_subtotal">
+                            <small>Subtotal</small>
+                            <h3>$1000</h3>
+                        </div>
+                        <div class="carrito_producto_eliminar"> <!-- Acá va un icono de tacho de basura para sacar products -->
+                            <button>(Trashcan)</button>
+                        </div>
+                    </div>
+
+                <div class="carrito_acciones disabled">
+                    <div class="carrito_acciones_izquierda">
+                            <button class="carrito_acciones_vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito_acciones_derecha">
+                        <div class="carrito_acciones_total">
+                            <p>Total:</p>
+                            <p id="total">$1000</p>
+                        </div>
+                        <button class="carrito_acciones_comprar">Hacer pedido</button>
+                    </div>
+                </div>
+            </div> 
+
+            <p class="carrito_comprado disabled">¡Muchas gracias por tu compra!</p>
+        </main>
+    </div>
+</body>
+</html>

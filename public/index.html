@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="./images/iconos/Favicon 1.png">
+    <title>Dos Lobos</title>
+  </head>
+  <body>
+        <nav class="navbar">
+            <div class="slogan">
+                <img src="./images/iconos/Logo.png">
+                <div>
+                    <h1>Dos Lobos</h1>
+                    <p>- Artesanías y Santería -</p>
+                </div>
+            </div>
+                <div class="menu">
+                    <button id="todos" class="boton_menu boton_categoria active">
+                        <img src="./images/Iconos/ojo tribal.png">
+                        Todos los productos
+                        <img src="./images/Iconos/ojo tribal.png">
+                    </button>
+                    <button id="pulseras" class="boton_menu boton_categoria">
+                        <img src="./images/Iconos/ojo tribal.png">
+                        Pulseras
+                        <img src="./images/Iconos/ojo tribal.png">
+                    </button>
+                    <button id="collares" class="boton_menu boton_categoria">
+                        <img src="./images/Iconos/ojo tribal.png">
+                        Collares
+                        <img src="./images/Iconos/ojo tribal.png">
+                    </button> 
+                    <!-- 
+                        <button class="boton_menu boton_carrito"><a href="./carrito.html">Carrito</a> <span class="numero_compras">0</span></button>
+                    -->
+                </div>
+            <div class="contacto">
+                <h4 style="margin: auto 0;">Contacto</h4>
+                <div class="contacto_items">
+                    <div>
+                        <img height="35px" width="auto" src="./images/iconos/whatsapp icon.png">
+                        <p>11 5475 5330 / 11 2581 0905</p>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/doslobos.artesanias/" target="_blank"><img height="35px" width="auto" src="./images/iconos/instagram icon.png"></a>
+                        <a href="https://www.instagram.com/doslobos.artesanias/" target="_blank" style="margin-left: 10px;">doslobos.artesanias</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <h1 id="titulo_principal" class="productos_titulo">Todos los productos</h1>
+            <div id="contenedor_productos" class="contenedor_productos">
+                <!-- <div class="producto">
+                    <img class="producto_imagen" src="./images/Hilo finito 7 nudos ojo violeta 10.jpg"> 
+                    <div class="producto_info">
+                        <h3>Nombre</h3>
+                        <p>$Precio</p>
+                        <button class="producto_agregar">Agregar</button>
+                    </div>
+                </div> -->
+            </div>
+
+            <div id="imageModal" class="modal">
+                <span class="modal_close">&times;</span>
+                <img class="modal_content" id="modalImage">
+            </div>
+
+        </main>
+    
+
+    <script src="./main.js" defer></script>
+</body>
+</html>
